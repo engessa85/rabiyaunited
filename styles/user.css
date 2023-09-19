@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Crete Round", serif;
+  }
+
+  .maincontainer {
+    background-color: #f7f8f9;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: auto;
+  }
+
+  .maincontainer .wrapper {
+
+    padding-top: 10px;
+    height: 100vh;
+    
+
+  }
+
+  .maincontainer .wrapper h1 {
+    color: #243c69;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+
+  .maincontainer .wrapper form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #243c69;
+  }
+
+  label {
+    text-align: right;
+    display: block;
+  }
+  
+  .userinput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .userinput input,select {
+    width: 300px;
+    height: 40px;
+    border-radius: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 0.9px solid gray;
+    
+  }
+  
+  .userinput input:focus{
+      outline: none;
+  }
+  
+  
+  
+  button {
+    width: 300px;
+    height: 40px;
+    background-color: #b1935a;
+    border: none;
+    color: white;
+    font-weight: 700;
+  }
+  
+  button:hover {
+    opacity: 0.7;
+  }

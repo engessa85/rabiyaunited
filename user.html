@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/user.css" />
+  </head>
+  <body>
+    <div class="maincontainer">
+      <div class="wrapper">
+        <h1>أداره المشروعات</h1>
+        <form dir="rtl">
+          <div class="userinput">
+            <label for="username">التاريخ</label>
+            <input type="date" name="date" id="date" />
+          </div>
+          <div class="userinput">
+            <label for="nameproject">أسم المشروع</label>
+            <input type="text" name="nameproject" id="nameproject" />
+          </div>
+          <div class="userinput">
+            <label for="username">أسم العميل</label>
+            <input type="text" name="username" id="username" />
+          </div>
+          <div class="userinput">
+            <label for="phone">رقم العميل</label>
+            <input type="number" name="phone" id="phone" />
+          </div>
+          <div class="userinput">
+            <label for="service">نوع الخدمة</label>
+            <select id="service" name="service">
+              <option value="ser1">المطبوعات و المواد الاعلانية</option>
+              <option value="ser2">الفعليات</option>
+              <option value="ser3">التسويق الرقمي</option>
+              <option value="ser4">التصميم</option>
+            </select>
+          </div>
+          <div class="userinput">
+            <label for="cost">التكلفة</label>
+            <input type="number" name="cost" id="cost" />
+          </div>
+          <div class="userinput">
+            <label for="price">سعر البيع</label>
+            <input type="number" name="price" id="price" />
+          </div>
+          <div class="buttoncontainer">
+            <button id="next">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
